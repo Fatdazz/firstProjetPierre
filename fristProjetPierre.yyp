@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Individu","path":"sprites/Individu/Individu.yy",},"order":1,},
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
+    {"id":{"name":"Fibonacci","path":"scripts/Fibonacci/Fibonacci.yy",},"order":0,},
+    {"id":{"name":"createorIndividu","path":"sprites/createorIndividu/createorIndividu.yy",},"order":0,},
     {"id":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},"order":0,},
   ],
   "Options": [
