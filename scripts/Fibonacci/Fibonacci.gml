@@ -3,7 +3,8 @@
 // fonction fibonacci(n, a, b)
 //      si n = 0 alors retourner a
 //      sinon si n = 1 alors retourner b
-//      sinon retourner fibonacci(n-1, b, a+b)
+//      sinon retourner fibonacci(n-1, b, a+b) 
+// L'appel à fibonacci(n, 0, 1)
 
 
 

@@ -4,6 +4,6 @@
 
  show_debug_message("valeur :" +string(sprite_height))
  
- var i = fibonacci(9,8,7);
+ var i = fibonacci(9,0,1);
  
-  show_debug_message("valeur :" +string(i))
+ show_debug_message("valeur :" +string(i))
