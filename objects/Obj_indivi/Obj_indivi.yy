@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "createorIndividu",
-    "path": "sprites/createorIndividu/createorIndividu.yy",
+    "name": "Individu",
+    "path": "sprites/Individu/Individu.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Object1","path":"objects/Object1/Object1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":0,"value":"0.6","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"densityCreat","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objets",
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object1",
+  "name": "Obj_indivi",
   "tags": [],
   "resourceType": "GMObject",
 }
