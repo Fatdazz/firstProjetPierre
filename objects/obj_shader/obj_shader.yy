@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Individu",
-    "path": "sprites/Individu/Individu.yy",
+    "name": "spr_portalCube",
+    "path": "sprites/spr_portalCube/spr_portalCube.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_indivi",
+  "name": "obj_shader",
   "tags": [],
   "resourceType": "GMObject",
 }

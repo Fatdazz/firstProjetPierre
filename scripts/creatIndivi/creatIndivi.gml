@@ -13,8 +13,8 @@ function randCreat(s, h, w, esp){
 	var n = instance_number(Obj_indivi)
 	while(i){
 		i= false
-		xx = random_range(s.x-w,s.x+w);
-		yy = random_range(s.x-h,s.x+h);
+		xx = irandom_range(s.x-w,s.x+w);
+		yy = irandom_range(s.x-h,s.x+h);
 		show_debug_message("xx: " + string(xx) + " yy :" + string(yy))
 		for(var j = 0; j < n; j++;){
 			var u = instance_find(Obj_indivi,j)

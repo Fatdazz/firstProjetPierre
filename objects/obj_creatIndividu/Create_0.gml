@@ -15,7 +15,6 @@ for(var i = 0; i < n; i++;){
 		i2++;
 		randCreat(self,sprite_height/2,sprite_width/2,30)
 	}
-	
 	if(i< nbAverageInfuance){
 		i2++
 		randCreat(self,sprite_height/2,sprite_width/2,30)
@@ -28,16 +27,11 @@ for(var i = 0; i < n; i++;){
 
 	randCreat(self,sprite_height/2,sprite_width/2,15)
 	
+	
 	//show_debug_message("valeur :" + string(u.image_xscale))
-	
-
-	
-	
 	
 }
 
-
- 
- show_debug_message("valeur :" +string(n))
+	show_debug_message("valeur :" +string(n))
  
 instance_destroy(self);

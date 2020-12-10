@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Individu",
-    "path": "sprites/Individu/Individu.yy",
+    "name": "spr_statue",
+    "path": "sprites/spr_statue/spr_statue.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,7 +11,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 1,
+  "physicsGroup": 0,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -21,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_indivi",
+  "name": "obj_test",
   "tags": [],
   "resourceType": "GMObject",
 }
