@@ -8,6 +8,7 @@
     {"id":{"name":"shd_test","path":"shaders/shd_test/shd_test.yy",},"order":2,},
     {"id":{"name":"Individu","path":"sprites/Individu/Individu.yy",},"order":1,},
     {"id":{"name":"shd_shadertoy","path":"shaders/shd_shadertoy/shd_shadertoy.yy",},"order":0,},
+    {"id":{"name":"Shader5","path":"shaders/Shader5/Shader5.yy",},"order":4,},
     {"id":{"name":"Shader2","path":"shaders/Shader2/Shader2.yy",},"order":1,},
     {"id":{"name":"spr_statue","path":"sprites/spr_statue/spr_statue.yy",},"order":3,},
     {"id":{"name":"obj_creatIndividu","path":"objects/obj_creatIndividu/obj_creatIndividu.yy",},"order":0,},
@@ -17,6 +18,7 @@
     {"id":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"order":1,},
     {"id":{"name":"creatIndivi","path":"scripts/creatIndivi/creatIndivi.yy",},"order":1,},
     {"id":{"name":"createorIndividu","path":"sprites/createorIndividu/createorIndividu.yy",},"order":0,},
+    {"id":{"name":"shd_glitchColorShift","path":"shaders/shd_glitchColorShift/shd_glitchColorShift.yy",},"order":5,},
     {"id":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},"order":0,},
   ],
   "Options": [

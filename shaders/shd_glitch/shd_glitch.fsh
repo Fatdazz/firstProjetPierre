@@ -165,3 +165,14 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 //https://www.shadertoy.com/view/4sBSzK
 
 //https://www.shadertoy.com/view/MtBSDG
+
+//https://www.shadertoy.com/view/MtXBDs
+
+//https://www.shadertoy.com/view/4tyfDR
+
+//https://www.shadertoy.com/view/3dXSzS
+
+//https://www.shadertoy.com/view/wdVSR1  https://www.shadertoy.com/view/wdVSR1
+
+
+//https://www.shadertoy.com/view/tt3GRN
