@@ -11,17 +11,17 @@ uniform vec4 u_vB;
 uniform vec4 u_vA;
 
 float speed = 10.0;
-float amplitude = .2; 
+float amplitude = .3; 
 
 
 vec4 rgbShift( vec2 p , vec4 shift) {
-	shift *= 2.0*shift.w - 1.0;
+	shift *= -2.0*shift.w + 1.0;
 	vec2 rs = vec2(shift.x,-shift.y);
 	vec2 gs = vec2(shift.y,-shift.z);
 	vec2 bs = vec2(shift.z,-shift.x);
-	float r = texture2D( gm_BaseTexture, mod(p+rs,u_vA.zw)+ u_vA.xy ).x;
-	float g = texture2D( gm_BaseTexture, mod(p+gs,u_vA.zw)+ u_vA.xy).y;
-	float b = texture2D( gm_BaseTexture, mod(p+bs,u_vA.zw)+ u_vA.xy).z;
+	float r = texture2D( gm_BaseTexture, mod(p+rs,u_vA.zw)).x;
+	float g = texture2D( gm_BaseTexture, mod(p+gs,u_vA.zw)).y;
+	float b = texture2D( gm_BaseTexture, mod(p+bs,u_vA.zw)).z;
 	return vec4(r,g,b,1.0);
 }
 
@@ -40,7 +40,9 @@ void main()
 	highp vec4 shift = vec4pow( noise(vec2(mod(iTime*speed,u_vB.z) + u_vB.x, (mod(iTime*speed,u_vB.z) + u_vB)/25.0) ),8.0); //highp
 	shift *= vec4(amplitude,amplitude,amplitude,1.0);
 	c += rgbShift(v_vTexcoord, shift);
-    gl_FragColor = vec4(c.rgba);
+	//shift.w= 0;
+	//c = vec4(shift.w/1.5,1.0,1.0,1.0);
+    gl_FragColor = vec4(c.rgb,texture2D( gm_BaseTexture,v_vTexcoord).a);
 }
 
 
