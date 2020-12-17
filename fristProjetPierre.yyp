@@ -17,6 +17,7 @@
     {"id":{"name":"spr_portalCube","path":"sprites/spr_portalCube/spr_portalCube.yy",},"order":5,},
     {"id":{"name":"Obj_indivi","path":"objects/Obj_indivi/Obj_indivi.yy",},"order":1,},
     {"id":{"name":"creatIndivi","path":"scripts/creatIndivi/creatIndivi.yy",},"order":1,},
+    {"id":{"name":"obj_simple","path":"objects/obj_simple/obj_simple.yy",},"order":4,},
     {"id":{"name":"createorIndividu","path":"sprites/createorIndividu/createorIndividu.yy",},"order":0,},
     {"id":{"name":"shd_glitchColorShift","path":"shaders/shd_glitchColorShift/shd_glitchColorShift.yy",},"order":5,},
     {"id":{"name":"Pièce1","path":"rooms/Pièce1/Pièce1.yy",},"order":0,},
