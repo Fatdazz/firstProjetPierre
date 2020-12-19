@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "vect2",
+  "name": "init",
   "tags": [],
   "resourceType": "GMScript",
 }
