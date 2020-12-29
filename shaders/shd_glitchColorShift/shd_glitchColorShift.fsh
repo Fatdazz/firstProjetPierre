@@ -11,7 +11,7 @@ uniform vec4 u_vB;
 uniform vec4 u_vA;
 
 float speed = 10.0;
-float amplitude = .3; 
+float amplitude = .3;
 
 
 vec4 rgbShift( vec2 p , vec4 shift) {
