@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+show_debug_message(view_current);
+
+//if(view_current == 1) camera_apply(view_camera[0]);
+
+
 //draw_clear(c_dkgray);
 //draw_set_color(c_white);
 //draw_set_alpha(1);
@@ -33,5 +38,4 @@
 
 
 //draw_surface(fboCam, room_width - room_width/3 - 100, room_height - room_height/3 - 100);
-
 

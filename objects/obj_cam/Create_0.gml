@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+view_enabled = true;
+
 window_set_rectangle(100,100, room_width,room_height);
 
 var cam = camera_create();
@@ -19,6 +22,7 @@ camera_set_view_size(cam,room_width,room_height);
 
 camera_set_view_size(cam,room_width,room_height);
 
+
 view_visible[1] = true;
 view_xport[1] = room_width - room_width/4;
 view_yport[1] = 0;
@@ -28,15 +32,15 @@ view_camera[1] = camForFbo;
 
 global.fboCam = surface_create(view_wport[1],view_hport[1]);
 
-//view_surface_id[1] = global.fboCam;
+view_surface_id[1] = global.fboCam;
 
 
-//camera_set_begin_script(camForFbo,sr_cam_begin);
+camera_set_begin_script(camForFbo,sr_cam_begin);
 
 camera_set_end_script(view_camera[1],sr_cam_end);
 camera_get_end_script(view_camera[1]);
 
-show_debug_message(camera_get_end_script(camForFbo))
+show_debug_message(camera_get_end_script(camForFbo));
 //texture_debug_messages(" id sr_end: "  + string(camera_get_end_script(camForFbo)));
  
 
