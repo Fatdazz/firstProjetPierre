@@ -42,7 +42,7 @@ camera_get_end_script(view_camera[1]);
 
 show_debug_message(camera_get_end_script(camForFbo));
 //texture_debug_messages(" id sr_end: "  + string(camera_get_end_script(camForFbo)));
- 
+
 
 camera_set_view_pos(camForFbo,156,0);
 camera_set_view_size(camForFbo, 450 - 156, 450 - 156 );

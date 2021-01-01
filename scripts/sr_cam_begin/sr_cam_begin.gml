@@ -3,7 +3,7 @@
 function sr_cam_begin(){
 
 
-	show_debug_message(" je suis dans begin " )
+	show_debug_message(" je suis dans begin " );
 
 	//var uni_iResolution = shader_get_uniform(shd_glitchColorShift,"iResolution");
 	//var uni_iTime = shader_get_uniform(shd_glitchColorShift,"iTime");
