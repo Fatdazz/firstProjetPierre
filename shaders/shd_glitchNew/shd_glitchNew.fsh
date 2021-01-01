@@ -42,7 +42,20 @@ void main()
 	c += rgbShift(v_vTexcoord, shift);
 	//shift.w= 0;
 	//c = vec4(shift.w/1.5,1.0,1.0,1.0);
+	//gl_FragColor = vec4(1,1,1,1)
     gl_FragColor = vec4(c.rgb,texture2D( gm_BaseTexture,v_vTexcoord).a);
+	
+	
+	//vec4 c = texture2D( gm_BaseTexture, v_vTexcoord );
+	//c = vec4(0.0,0.0,0.0,1.0);
+	
+	//c.r = 1.0;
+	////c =  noise(u_vB.xy);
+	
+	
+	//c = vec4(iTime,0.0,0.0,1.0);
+    //gl_FragColor = c;
+	
 }
 
 

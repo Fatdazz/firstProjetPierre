@@ -7,6 +7,7 @@
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":3,},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":3,},
     {"id":{"name":"shd_red","path":"shaders/shd_red/shd_red.yy",},"order":6,},
+    {"id":{"name":"shd_glitchNew","path":"shaders/shd_glitchNew/shd_glitchNew.yy",},"order":7,},
     {"id":{"name":"sr_cam_end","path":"scripts/sr_cam_end/sr_cam_end.yy",},"order":5,},
     {"id":{"name":"sr_cam_begin","path":"scripts/sr_cam_begin/sr_cam_begin.yy",},"order":4,},
     {"id":{"name":"vect2","path":"scripts/vect2/vect2.yy",},"order":2,},

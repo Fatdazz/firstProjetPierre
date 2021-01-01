@@ -39,3 +39,24 @@ show_debug_message(view_current);
 
 //draw_surface(fboCam, room_width - room_width/3 - 100, room_height - room_height/3 - 100);
 
+
+
+
+uni_iResolution = shader_get_uniform(shd_glitchNew,"iResolution");
+uni_iTime = shader_get_uniform(shd_glitchNew,"iTime");
+uni_uvA = shader_get_uniform( shd_glitchNew, "u_vA" );
+uni_uvB = shader_get_uniform( shd_glitchNew, "u_vB" );
+
+_uvs_b = sprite_get_uvs( spr_rgbNoiseSmall, 0 ); // dimension texture1
+//var _uvs_a = sprite_get_uvs( spr_portalCube, 0 );
+_uvs_a = texture_get_uvs(surface_get_texture(global.fboCam));
+
+t_sampler = shader_get_sampler_index( shd_glitchNew, "Texture01" );
+t_sprite = sprite_get_texture( spr_rgbNoiseSmall, 0 );
+	
+//_uvs_a[2]=1;
+//_uvs_a[3]=1;
+show_debug_message(_uvs_b);
+
+
+
