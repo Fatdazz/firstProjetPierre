@@ -31,7 +31,7 @@ global.fboCam = surface_create(view_wport[1],view_hport[1]);
 //view_surface_id[1] = global.fboCam;
 
 
-//camera_set_begin_script(camForFbo,sr_cam_begin);
+camera_set_begin_script(view_camera[1],sr_cam_begin);
 
 camera_set_end_script(view_camera[1],sr_cam_end);
 camera_get_end_script(view_camera[1]);
