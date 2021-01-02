@@ -4,11 +4,12 @@
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 varying vec2 v_vTexcoord_B;
+varying vec4 v_vB;
+varying vec4 v_vA;
 
 uniform sampler2D Texture01;
 uniform float     iTime;
-uniform vec4 u_vB;
-uniform vec4 u_vA;
+
 
 float speed = 10.0;
 float amplitude = .3;
@@ -19,9 +20,9 @@ vec4 rgbShift( vec2 p , vec4 shift) {
 	vec2 rs = vec2(shift.x,-shift.y);
 	vec2 gs = vec2(shift.y,-shift.z);
 	vec2 bs = vec2(shift.z,-shift.x);
-	float r = texture2D( gm_BaseTexture, mod(p+rs,u_vA.zw)).x;
-	float g = texture2D( gm_BaseTexture, mod(p+gs,u_vA.zw)).y;
-	float b = texture2D( gm_BaseTexture, mod(p+bs,u_vA.zw)).z;
+	float r = texture2D( gm_BaseTexture, mod(p+rs,v_vA.zw)).x;
+	float g = texture2D( gm_BaseTexture, mod(p+gs,v_vA.zw)).y;
+	float b = texture2D( gm_BaseTexture, mod(p+bs,v_vA.zw)).z;
 	return vec4(r,g,b,1.0);
 }
 
@@ -37,7 +38,7 @@ vec4 vec4pow(  vec4 v,  float p ) {
 void main()
 {
     vec4 c = vec4(0.0,0.0,0.0,1.0);
-	highp vec4 shift = vec4pow( noise(vec2(mod(iTime*speed,u_vB.z) + u_vB.x, (mod(iTime*speed,u_vB.z) + u_vB.y)/25.0) ),8.0); //highp
+	highp vec4 shift = vec4pow( noise(vec2(mod(iTime*speed,v_vB.z) + v_vB.x, (mod(iTime*speed,v_vB.z) + v_vB.y)/25.0) ),8.0); //highp
 	shift *= vec4(amplitude,amplitude,amplitude,1.0);
 	c += rgbShift(v_vTexcoord, shift);
 	//shift.w= 0;

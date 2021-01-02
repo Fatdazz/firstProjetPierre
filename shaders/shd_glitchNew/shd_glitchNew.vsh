@@ -10,8 +10,8 @@ varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 varying vec2 v_vTexcoord_B;
 
-uniform vec4  highp u_vA;
-uniform vec4  highp u_vB;
+uniform vec4   u_vA;
+uniform vec4   u_vB;
 
 void main()
 {
