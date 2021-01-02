@@ -4,4 +4,4 @@
 
 
 
-draw_surface(global.fboCam, room_width - room_width/3 - 100, room_height - room_height/3 - 100);
+//draw_surface(global.fboCam, room_width - room_width/3 - 100, room_height - room_height/3 - 100);
